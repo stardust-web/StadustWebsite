@@ -1,7 +1,7 @@
 # Stadust Official website
 Official website of S.T.A.R.D.U.ST
 
-# For Backend
+For Backend
 
 create a virtual env for django:
 $conda create -n your_env_name
