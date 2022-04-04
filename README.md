@@ -1,6 +1,4 @@
-# stardustWebsiteBackend
-Backend for Stardust Website
-
+# For stardustWebsite Backend
 
 create a virtual env for django:
 $conda create -n your_env_name
