@@ -79,6 +79,7 @@ class Technical(models.Model):
     )
     SSPOSTS = (
         ("None", "None"),
+        ("Head", "Head"),
         ("SSH", "Subsystem Head"),
         ("CSE", "Chief System Engineer"),
         ("SE", "System Engineer"),
@@ -112,6 +113,7 @@ class Rocketry(models.Model):
     )
     RPOSTS = (
         ("None", "None"),
+        ("Head", "Head"),
         ("SSH", "Subsystem Head"),
         ("CSE", "Chief System Engineer"),
         ("SE", "System Engineer"),
