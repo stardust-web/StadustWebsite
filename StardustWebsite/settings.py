@@ -39,6 +39,8 @@ ALLOWED_HOSTS = ['https://teamstardust.herokuapp.com']
 INSTALLED_APPS = [
     #stardust apps
     'Achievements',
+    # Added Gallery 
+    'Gallery',    
     'Events',
     'Members',
     'Research',

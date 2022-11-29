@@ -5264,3 +5264,66 @@ background: linear-gradient(90deg, rgba(81,81,82,1) 0%, rgba(12,12,12,1) 47%, rg
   grid-template-columns: repeat(2,1fr);
   
 }
+
+
+/* ------------------------ Gallery Cards --------------------------------- */
+
+.gallery-container{
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+.gallery-img-container{
+  max-width: 100vw;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* height: 40vh; */
+  column-gap: 3em;
+  row-gap: 1em;
+  border-radius: 1em;  
+  text-align: center;
+}
+
+.gallery-img-container img{
+  overflow: hidden;
+  max-width: 100%;
+  width: 85%;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.gallery-img-container h2{
+  margin: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.7rem;
+}
+
+
+                    /* hover on image cards */
+
+                    .gallery-img-card:hover{
+                      border: 2px solid #548CFF;
+                      border-radius: 2em;
+                    }
+               
+
+  @media(max-width:898px){
+    
+    .gallery-img-container{
+      grid-template-columns: repeat(2,1fr);
+      row-gap: 3em;
+    }
+
+  }
+
+  @media(max-width:500px){
+
+    .gallery-img-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    
+  }
+
+/* ----------------------------------------------- Gallery Cards End------------------------------------------------------ */
