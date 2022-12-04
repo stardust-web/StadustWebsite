@@ -31,7 +31,7 @@ SECRET_KEY = '+6llouc2@s!&bp*%2+bqa75$+m1i$nqr!#k$f92^*m*r9el+iq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://teamstardust.herokuapp.com','https://teamstardust.up.railway.app']
+ALLOWED_HOSTS = ['https://teamstardust.herokuapp.com','teamstardust.up.railway.app']
 
 
 # Application definition
